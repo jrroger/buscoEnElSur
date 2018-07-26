@@ -43,7 +43,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            fbutton:fButtonColor="@color/fbutton_color_clouds"
+            fbutton:fButtonColor="@color/btnEsp"
+            android:shadowColor="@android:color/black"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="4dp"
             />
 
     </LinearLayout>
