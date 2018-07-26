@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">buscoenelsur</string>
+    <string name="app_name">Busco en el Sur</string>
+    <string name="txt_logo">Busco en el Sur</string>
+
+    //Buttons
+    <string name="btn_esp">Español</string>
+    <string name="btn_eng">English</string>
+    <string name="btn_por">Portugues</string>
 </resources>

@@ -13,8 +13,38 @@
         android:orientation="vertical">
 
         <ImageView
+            android:src="@drawable/logotdf"
             android:layout_width="300dp"
             android:layout_height="300dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtLogo"
+            android:text="@string/txt_logo"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnEsp"
+            android:text="@string/txt_esp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            fbutton:fButtonColor="@color/fbutton_color_clouds"
+            />
 
     </LinearLayout>
 
