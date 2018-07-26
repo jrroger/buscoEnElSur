@@ -49,6 +49,36 @@
             fbutton:cornerRadius="4dp"
             />
 
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnEng"
+            android:text="@string/txt_eng"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            fbutton:fButtonColor="@color/btnEng"
+            android:shadowColor="@android:color/black"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="4dp"
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnPor"
+            android:text="@string/txt_por"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            fbutton:fButtonColor="@color/btnPor"
+            android:shadowColor="@android:color/black"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="4dp"
+            />
+
     </LinearLayout>
 
 
