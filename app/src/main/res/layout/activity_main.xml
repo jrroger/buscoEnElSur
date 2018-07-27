@@ -7,79 +7,74 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_centerInParent="true"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:orientation="vertical">
 
         <ImageView
-            android:src="@drawable/logotdf"
             android:layout_width="300dp"
-            android:layout_height="300dp" />
+            android:layout_height="300dp"
+            android:src="@drawable/logotdf_small" />
 
         <TextView
-            android:gravity="center"
             android:id="@+id/txtLogo"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="@string/txt_logo"
             android:textColor="@android:color/white"
-            android:textSize="40sp"
-            android:layout_width="300sp"
-            android:layout_height="wrap_content" />
+            android:textSize="40sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:weightSum="3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
         <info.hoang8f.widget.FButton
             android:id="@+id/btnEsp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:shadowColor="@android:color/black"
             android:text="@string/txt_esp"
             android:textColor="@android:color/white"
             android:textSize="12sp"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            fbutton:fButtonColor="@color/btnEsp"
-            android:shadowColor="@android:color/black"
-            fbutton:shadowHeight="5dp"
             fbutton:cornerRadius="4dp"
-            />
+            fbutton:fButtonColor="@color/btnEsp"
+            fbutton:shadowHeight="5dp" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/btnEng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:shadowColor="@android:color/black"
             android:text="@string/txt_eng"
             android:textColor="@android:color/white"
             android:textSize="12sp"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            fbutton:fButtonColor="@color/btnEng"
-            android:shadowColor="@android:color/black"
-            fbutton:shadowHeight="5dp"
             fbutton:cornerRadius="4dp"
-            />
+            fbutton:fButtonColor="@color/btnEng"
+            fbutton:shadowHeight="5dp" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/btnPor"
-            android:text="@string/txt_por"
-            android:textColor="@android:color/white"
-            android:textSize="12sp"
-            android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            fbutton:fButtonColor="@color/btnPor"
+            android:layout_weight="1"
             android:shadowColor="@android:color/black"
-            fbutton:shadowHeight="5dp"
+            android:text="@string/txt_por"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
             fbutton:cornerRadius="4dp"
-            />
-
+            fbutton:fButtonColor="@color/btnPor"
+            fbutton:shadowHeight="5dp" />
     </LinearLayout>
-
 
 </RelativeLayout>
