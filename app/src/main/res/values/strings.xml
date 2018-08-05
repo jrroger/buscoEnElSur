@@ -6,4 +6,5 @@
     <string name="txt_esp">Español</string>
     <string name="txt_eng">English</string>
     <string name="txt_por">Portugues</string>
+    <string name="txt_settings">Configuración</string>
 </resources>
