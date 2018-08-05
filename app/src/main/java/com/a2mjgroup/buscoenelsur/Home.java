@@ -1,4 +1,4 @@
 package com.a2mjgroup.buscoenelsur;
 
-public class Home {
+public class Home{
 }
