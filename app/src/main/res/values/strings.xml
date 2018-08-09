@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Busco en el Sur</string>
     <string name="txt_logo">Busco en el Sur</string>
+    <string name="txt_home">Inicio</string>
 
     //Buttons
     <string name="txt_esp">Español</string>
     <string name="txt_eng">English</string>
     <string name="txt_por">Portugues</string>
     <string name="txt_settings">Configuración</string>
+    <string name="txt_menuName">Nombre del menu</string>
+    <string name="txt_categories">Categorias</string>
 </resources>

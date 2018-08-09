@@ -2,6 +2,7 @@
 <resources>
     //Customized for app
     <color name="background">#6FFF8C</color>
+    <color name="menuBackground">#4F0E0D0E</color>
 
     <color name="colorPrimary">#004d40</color>
     <color name="colorPrimaryDark">#00251a</color>
