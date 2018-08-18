@@ -10,4 +10,15 @@
     <string name="txt_settings">Configuración</string>
     <string name="txt_menuName">Nombre del menu</string>
     <string name="txt_categories">Categorias</string>
+
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="txt_category">Category</string>
+
+    <string name="txt_businessDesc">Business Description</string>
+    <string name="txt_business">Negocios</string>
+    <string name="txt_address">Dirección</string>
+    <string name="txt_telefono">Telefono</string>
+    <string name="txt_horarios">Horarios</string>
+    <string name="txt_descripcion">Descripción</string>
 </resources>

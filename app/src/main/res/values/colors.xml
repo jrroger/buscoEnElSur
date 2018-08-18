@@ -14,7 +14,8 @@
 
 
     <color name="overlayBackground">#7f333639</color>
-    <color name="overlayActionBar">#0e0d0e</color>
+    <color name="overlayActionBar">#0E0D0E</color>
+    <color name="content_Scrim">#0E0D0E</color>
 
 
     //Colors for FButtons
